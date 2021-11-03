@@ -15,14 +15,9 @@ body {
     border-style: solid;
     border-width: 3px;
     border-color: rgb(255, 65, 97);
-    background-image: linear-gradient(to bottom right, rgb(22, 22, 22) 48%, rgb(255, 65, 97) 50%, rgb(22, 22, 22) 52%);
+    background-image: linear-gradient(to bottom right, rgb(22, 22, 22) 49.7%, rgb(255, 65, 97) 50%, rgb(22, 22, 22) 50.3%);
     padding: 2%;
 }
-
-#form-container:hover {
-    border-width: 5px;
-}
-
 #form-caption {
     font-size: 3em;
     color: white;
