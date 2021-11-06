@@ -1,3 +1,4 @@
+/*rgb(255, 65, 97)*/
 body {
     font-family: sans-serif;
     margin: 0%;
@@ -14,8 +15,8 @@ body {
     align-items: center;
     border-style: solid;
     border-width: 3px;
-    border-color: rgb(255, 65, 97);
-    background-image: linear-gradient(to bottom right, rgb(22, 22, 22) 49.7%, rgb(255, 65, 97) 50%, rgb(22, 22, 22) 50.3%);
+    border-color: rgb(255, 161, 37);
+    background-image: linear-gradient(to bottom right, rgb(22, 22, 22) 49.7%, rgb(255, 162, 37) 50%, rgb(22, 22, 22) 50.3%);
     padding: 2%;
 }
 #form-caption {
@@ -27,7 +28,7 @@ body {
 .input-item {
     margin: 5%;
     border-style: solid;
-    border-color: rgb(255, 65, 97);
+    border-color: rgb(255, 161, 37);
     border-radius: 40px;
     padding: 2%;
     width: 50%;
@@ -43,6 +44,6 @@ body {
 }
 
 #sign-up-button:hover {
-    background-color: rgb(255, 65, 97);
+    background-color: rgb(255, 161, 37);
     cursor: pointer;
 }
