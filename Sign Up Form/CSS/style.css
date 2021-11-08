@@ -1,10 +1,13 @@
-/*rgb(255, 65, 97)*/
+/*rgb(255, 65, 97) was the first color choice*/
+
+/*Changes the body background to become full width of the browser window*/
 body {
     font-family: sans-serif;
     margin: 0%;
     background-color: rgb(22, 22, 22);
 }
 
+/*Container for the sign up form. In the HTML it's a feidlset tag*/
 #form-container {
     width: 40%;
     margin: auto;
@@ -16,15 +19,17 @@ body {
     border-style: solid;
     border-width: 3px;
     border-color: rgb(255, 161, 37);
-    background-image: linear-gradient(to bottom right, rgb(22, 22, 22) 49.7%, rgb(255, 162, 37) 50%, rgb(22, 22, 22) 50.3%);
+    background-image: linear-gradient(to bottom right, rgb(22, 22, 22) 49.7%, rgb(255, 161, 37) 50%, rgb(22, 22, 22) 50.3%);
     padding: 2%;
 }
+
 #form-caption {
     font-size: 3em;
     color: white;
     text-align: center;
 }
 
+/*Changes all the input fields together*/
 .input-item {
     margin: 5%;
     border-style: solid;
@@ -35,6 +40,7 @@ body {
 
 }
 
+/*Sign up button*/
 #sign-up-button {
     margin: 5%;
     border-style: none;
