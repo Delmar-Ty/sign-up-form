@@ -1,6 +1,6 @@
 //letters and numbers variables for matching against RegEx. Declared outside the function so they're global
-var letters = /^[a-zA-Z]+$/;
-var numbers = /^[0-9]+$/;
+var letters = /^[a-zA-Z]+$/g;
+var numbers = /^[0-9]+$/g;
 
 //Checks to make sure the form is complete without any mistakes like numbers in a name
 function checker() {
